@@ -1,0 +1,9 @@
+{
+    "build": {
+      "target": "node16"
+    },
+    "deploy": {
+      "target": "vercel",
+      "entrypoint": "app.js"
+    }
+  }
