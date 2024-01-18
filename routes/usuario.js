@@ -46,6 +46,7 @@ router.post("/registro", (req, res) => {
                     nome: req.body.nome,
                     email: req.body.email,
                     senha: req.body.senha,
+                    eAdmin: 1
                 })
 
                 bcrypt.genSalt(10, (erro, salt) => {
